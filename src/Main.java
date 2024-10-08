@@ -13,9 +13,11 @@ public class Main {
         var suma = number2 + number1;
         var mul = number2 * number1;
         var sub = number1 - number2;
+        var div = (float) number1 / number2;
         System.out.println("Zbroj=" + suma);
         System.out.println("Umnožak=" + mul);
         System.out.println("Razlika=" + sub);
+        System.out.println("Količnik=" + div);
 
         }
     }
