@@ -6,17 +6,20 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        int suma = 0;
+        int odabir = 1;
 
-        int choice;
-        do{
-            System.out.println("Pogodi tajni broj u rasponu od 1 do 10: ");
-            choice = scanner.nextInt();
+        while(odabir != 0){
+            System.out.println("unesi borj:");
+            odabir = scanner.nextInt();
+            suma += odabir;
 
-        }while(!(choice== 7));
+            }
+        System.out.println("suma je ="+suma);
+        }
 
-        System.out.println("Točno tjani broj je 7");
     }
-}
+
 
 
 
