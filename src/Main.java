@@ -6,18 +6,17 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int odd_num = 0;
-        int even_num = 0;
-        for (int i = 1; i <= 100; i++) {
-            if (i % 2 == 0) {
-                even_num += 1;
-            } else {
-                odd_num += 1;
-            }
 
-        }
-        System.out.println("parnih brojva je : " + even_num);
-        System.out.println("neparnih brojeva je : " + odd_num);
+        int choice;
+        do{
+            System.out.println("Pogodi tajni broj u rasponu od 1 do 10: ");
+            choice = scanner.nextInt();
+
+        }while(!(choice== 7));
+
+        System.out.println("Točno tjani broj je 7");
     }
-
 }
+
+
+
